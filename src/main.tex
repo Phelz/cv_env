@@ -1,0 +1,126 @@
+\documentclass[bib=normal,page2=display]{Code/CV}
+
+% Class options:
+%-------------------------------
+% nophoto                   - CV header without photo
+% nophotocenter             - same as using both nophoto and header=center
+% normalphoto               - rectangular photo
+% photoleft                 - photo on left side
+%
+% header=center             - CV header text is centered
+% header=raggedleft         - CV header text is aligned to the right
+% header=raggedright        - CV header text is aligned to the left (default)
+%
+% vonname=true              - displays von name and effects von name in bib
+% namedisplay=lastfirstvon  - displays names in the style: last, first von
+% namedisplay=lastfirst     - same as lastfirstvon.
+% namedisplay=vonlastfirst  - displays names in the style: von last, first
+% namedisplay=firstlastvon  - probably a bad option to display a name
+% namedisplay=firstlast     - vonname in bib (when vonname=true) but not heading
+%
+% bib=false                 - skip bibliography code/ don't include bib
+% bib=normal                - "normal" biblatex bibliography (include your name)
+% bib=highlightname         - makes your name in the bibliography bold
+% bib=hidenameonly          - removes year highlighting (not functional yet).
+%
+% multipleCVs               - document with more than 2 pages (multiple CVs in one doc)
+% page2=displayname         - displays name at top of every second page
+% page2=pagenumtop          - displays the number 2 on top of every other page
+% page2=pagenumbottom       - displays page number at bottom right corner evry other page
+% page2=pagenumclassic      - displays the number 2 in the usual manner at every other page
+% page2=display             - same as both options above (page number and name)
+%
+\input{Code/Preamble}
+% You can change language (babel) in Code/Preamble.tex
+
+% CV header information:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\firstname{Filobateer}
+\vonname{Moheb}
+\lastname{Ghaly}
+\tagline{PhD Student}
+
+\personalinfo{%
+%%   Not all of these are required!
+%%   You can add your own with \printinfo{<symbol>}{<text>}
+  % \begin{tabular}{l l l l l}
+  
+  % \birthday{26/09/1996} &
+  % \location{Alberta, Canada} &
+  % \email{filobteer.ghaly@ucalgary.ca} &
+  % \mailaddress{3500, Varsity Dr. NW} &
+  % \phone{+1 587-703-9481}
+ 
+  % \end{tabular}
+
+  
+	\begin{tblr}{%
+		colspec={  X[l, 3] X[l, 4] X[l, 4] X[l, 3] },  % Column specifications: first column with fixed width, rest flexible
+		% column{1} = {font=\fontsize{11}{12}\selectfont}, % 11pt font with 12pt line spacing for column 1 (bold)
+		% column{2} = {font=\fontsize{11}{12}\selectfont},           % 11pt font for column 2 (non-bold)
+		% column{3} = {font=\fontsize{11}{12}\selectfont},           % 11pt font for column 3 (non-bold)
+		width=1.0\textwidth,
+		colsep = 1pt,  % Adjust column spacing
+		rowsep=0.001\baselineskip} % Adjust row spacing
+	
+  \location{Alberta, Canada} &
+  \email{filobteer.ghaly@ucalgary.ca} &
+  \mailaddress{3500, Varsity Dr. NW} &
+  \phone{+1 587-703-9481}
+	\end{tblr}
+
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% % If you want to change the colours: ("Ctrl + /" on numpad to uncomment)
+% % (you can find some colour definitions in Code/Preamble.tex)
+\colorlet{icons}{light_blue}               % icon colour
+% \colorlet{soft_text}{light_blue}           % text colour
+% \colorlet{background_color}{light_blue}    % background colour
+
+% \renewcommand{\normalsize}{\small} % Makes default text smaller
+\renewcommand{\normalsize}{\fontsize{10pt}{10.8pt}\selectfont}
+
+\begin{document}
+
+\nocite{*} % Prints all references.
+
+\makecvheader
+
+% Links and summary box:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Links:
+% \begin{linkheader}
+%     \homepage{www.overleaf.com/}
+%     \twitter{BillNye}
+%     \linkedin{linkedin.com/}
+%     \github{github.com}
+%     % Use \ProvideSymbolLink{<link>}{<symbol>} for other links.
+%     % Example: \ProvideSymbolLink{facebook.com}{\faFacebookSquare}
+% \end{linkheader}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Text:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Text, page 1:
+\input{Txt/1-CV-body}
+% \input{Txt/p1_sidebar}
+
+\clearpage
+
+%% Text, page 2:
+\input{Txt/2-page2}
+%\input{Txt/p2_Sidebar}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
+
+

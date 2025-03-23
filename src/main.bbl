@@ -1,0 +1,855 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ydnt/global//global/global}
+    \entry{ghaly_quantifying_2024}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f062b4d8b792ddd005990c11f3897414}{%
+           family={Ghaly},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{f062b4d8b792ddd005990c11f3897414}
+      \strng{fullhash}{f062b4d8b792ddd005990c11f3897414}
+      \strng{bibnamehash}{f062b4d8b792ddd005990c11f3897414}
+      \strng{authorbibnamehash}{f062b4d8b792ddd005990c11f3897414}
+      \strng{authornamehash}{f062b4d8b792ddd005990c11f3897414}
+      \strng{authorfullhash}{f062b4d8b792ddd005990c11f3897414}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This thesis presents two related projects that investigate the impact of space weather on radio signals. The first project examines a new, prototype riometer, the Space Weather Adaptive Network (SWAN) Hyper Spectral Riometer (HSR), which can measure both terrestrial radio signals and Cosmic Noise Absorption (CNA). The simultaneous loss of both signals in the data can be used to estimate the size of electron density enhancements in the D-region. The second project investigates the use of existing riometers and a High Frequency (HF) transmitter--receiver circuit to predict radio signal fadeout during space weather events. By analyzing riometer absorption data, this project aims to establish thresholds that can be used for nowcasting radio disruptions. The project will quantify the probability of fadeout at different frequencies based on riometer absorption levels and examine the influence the position of the riometer has on its ability to nowcast. These projects aim to improve our understanding of how space weather affects radio signals and will ultimately help in the mitigation and reliability of HF communication and navigation systems.}
+      \field{month}{9}
+      \field{title}{Quantifying lonospheric {Electron} {Density} {Enhancements} and their {Impact} on {High} {Frequency} {Radio} {Wave} {Propagation}}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{file}
+      \verb Full Text PDF:files/1504/Ghaly - 2024 - Quantifying lonospheric Electron Density Enhancements and their Impact on High Frequency Radio Wave.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://hdl.handle.net/1880/119764
+      \endverb
+      \verb{url}
+      \verb https://hdl.handle.net/1880/119764
+      \endverb
+    \endentry
+    \entry{ghaly_use_2024}{article}{}
+      \name{author}{7}{ul=6}{%
+        {{un=0,uniquepart=base,hash=f062b4d8b792ddd005990c11f3897414}{%
+           family={Ghaly},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=398532a2416e7b9cea1bb5bf1ef4f102}{%
+           family={Spanswick},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc3fb9990e4a42ff1e7c00c9f18b4012}{%
+           family={Gillies},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9bc5ab384aa4db7f03901e3daba7779e}{%
+           family={Cameron},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a6d08c14780b2bebea326369cc2757f}{%
+           family={Skone},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=2e25ff240db3188408ab85f631a18584}{%
+           family={Fiori},
+           familyi={F\bibinitperiod},
+           given={R.\bibnamedelimi a.\bibnamedelimi D.},
+           giveni={R\bibinitperiod\bibinitdelim a\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=b11859a637664711691490a33d21cb7c}{%
+           family={Weatherwax},
+           familyi={W\bibinitperiod},
+           given={A.\bibnamedelimi T.},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{1addad0eb520ecbe5e22c5a1dcb33166}
+      \strng{fullhash}{eab4f59074b6bb7a0e6f0ee2e1639637}
+      \strng{bibnamehash}{1addad0eb520ecbe5e22c5a1dcb33166}
+      \strng{authorbibnamehash}{1addad0eb520ecbe5e22c5a1dcb33166}
+      \strng{authornamehash}{1addad0eb520ecbe5e22c5a1dcb33166}
+      \strng{authorfullhash}{eab4f59074b6bb7a0e6f0ee2e1639637}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents the first observations from the prototype Space Weather Adaptive Network (SWAN) riometers, which are capable of simultaneous measurements of narrow-band terrestrial signal power and Cosmic Noise Absorption (CNA). We describe a methodology by which we can use coincident CNA and loss of known skywave-mode, High Frequency (HF) signals to estimate a minimum size (geographic extent) of D-region electron density enhancements. We demonstrate our technique with an example event. This methodology and early results provide a pathfinder for a continent-wide array of SWAN instruments which would be capable of utilizing multiple intersecting terrestrial HF ray paths to reconstruct the size of D-region electron density enhancements at the time of initial HF signal loss.}
+      \field{issn}{2169-9402}
+      \field{journaltitle}{Journal of Geophysical Research: Space Physics}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2023JA032375}
+      \field{number}{5}
+      \field{title}{Use of {Terrestrial} {High} {Frequency} {Signals} in {Riometer} {Data} to {Explore} the {Size} of {D}-{Region} {Electron} {Density} {Enhancements}}
+      \field{volume}{129}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{e2023JA032375}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1029/2023JA032375
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:files/1507/Ghaly et al. - 2024 - Use of Terrestrial High Frequency Signals in Riometer Data to Explore the Size of D-Region Electron.pdf:application/pdf;Snapshot:files/1508/2023JA032375.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2023JA032375
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2023JA032375
+      \endverb
+      \keyw{absorption,D region,HF propagation,ionosphere,ray tracing,riometer}
+    \endentry
+    \entry{Ghaly2023AGU}{inproceedings}{}
+      \name{author}{6}{ul=3}{%
+        {{un=0,uniquepart=base,hash=f062b4d8b792ddd005990c11f3897414}{%
+           family={Ghaly},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=398532a2416e7b9cea1bb5bf1ef4f102}{%
+           family={Spanswick},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9bc5ab384aa4db7f03901e3daba7779e}{%
+           family={Cameron},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a6d08c14780b2bebea326369cc2757f}{%
+           family={Skone},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc3fb9990e4a42ff1e7c00c9f18b4012}{%
+           family={Gillies},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f912ffa0d16135f516f95ebc44c49af9}{%
+           family={Fiori},
+           familyi={F\bibinitperiod},
+           given={R.\bibnamedelimi A.\bibnamedelimi D.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {San Francisco, California}%
+      }
+      \strng{namehash}{9cc0b41302c7efc222a71c8ca7ae48ea}
+      \strng{fullhash}{d1435c5ae1b2dbec539d84d548ed81f1}
+      \strng{bibnamehash}{9cc0b41302c7efc222a71c8ca7ae48ea}
+      \strng{authorbibnamehash}{9cc0b41302c7efc222a71c8ca7ae48ea}
+      \strng{authornamehash}{9cc0b41302c7efc222a71c8ca7ae48ea}
+      \strng{authorfullhash}{d1435c5ae1b2dbec539d84d548ed81f1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{American Geophysical Union (AGU) 2023 Fall Meeting}
+      \field{month}{12}
+      \field{title}{A Riometer Proxy for HF Terrestrial Link Status}
+      \field{year}{2023}
+      \true{nocite}
+      \keyw{International conference,poster presentation,MSc work}
+    \endentry
+    \entry{Ghaly2023DASP}{inproceedings}{}
+      \name{author}{7}{ul=7}{%
+        {{un=0,uniquepart=base,hash=f062b4d8b792ddd005990c11f3897414}{%
+           family={Ghaly},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=398532a2416e7b9cea1bb5bf1ef4f102}{%
+           family={Spanswick},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc3fb9990e4a42ff1e7c00c9f18b4012}{%
+           family={Gillies},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9bc5ab384aa4db7f03901e3daba7779e}{%
+           family={Cameron},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a6d08c14780b2bebea326369cc2757f}{%
+           family={Skone},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=f912ffa0d16135f516f95ebc44c49af9}{%
+           family={Fiori},
+           familyi={F\bibinitperiod},
+           given={R.\bibnamedelimi A.\bibnamedelimi D.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=d14543cca29499bdcac3487f4bb91464}{%
+           family={Weatherwax},
+           familyi={W\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {John H. Chapman Space Centre, Longueuil, Quebec}%
+      }
+      \list{organization}{1}{%
+        {Canadian Space Agency (CSA)}%
+      }
+      \strng{namehash}{d398e7f2a49816c43ce93a4c7fb07715}
+      \strng{fullhash}{d398e7f2a49816c43ce93a4c7fb07715}
+      \strng{bibnamehash}{d398e7f2a49816c43ce93a4c7fb07715}
+      \strng{authorbibnamehash}{d398e7f2a49816c43ce93a4c7fb07715}
+      \strng{authornamehash}{d398e7f2a49816c43ce93a4c7fb07715}
+      \strng{authorfullhash}{d398e7f2a49816c43ce93a4c7fb07715}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Division of Atmospheric and Space Physics Conferences (DASP)}
+      \field{month}{2}
+      \field{title}{Using Multi-frequency Riometers for Monitoring HF Signal Propagation And Modelling D-region Absorption}
+      \field{year}{2023}
+      \true{nocite}
+      \keyw{National conference,oral presentation,MSc work}
+    \endentry
+    \entry{Ghaly2022TechReport}{report}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f062b4d8b792ddd005990c11f3897414}{%
+           family={Ghaly},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=398532a2416e7b9cea1bb5bf1ef4f102}{%
+           family={Spanswick},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Natural Resources Canada}%
+      }
+      \strng{namehash}{5bc817250063790dc5367f118f09d3af}
+      \strng{fullhash}{5bc817250063790dc5367f118f09d3af}
+      \strng{bibnamehash}{5bc817250063790dc5367f118f09d3af}
+      \strng{authorbibnamehash}{5bc817250063790dc5367f118f09d3af}
+      \strng{authornamehash}{5bc817250063790dc5367f118f09d3af}
+      \strng{authorfullhash}{5bc817250063790dc5367f118f09d3af}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Identification and Investigation of High Frequency Radio Wave Transmissions During Quiet and Disturbed Periods}
+      \field{type}{techreport}
+      \field{year}{2022}
+      \true{nocite}
+      \keyw{Technical report,work experience}
+    \endentry
+    \entry{Ghaly2022AGU}{inproceedings}{}
+      \name{author}{9}{ul=7}{%
+        {{un=0,uniquepart=base,hash=f062b4d8b792ddd005990c11f3897414}{%
+           family={Ghaly},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=398532a2416e7b9cea1bb5bf1ef4f102}{%
+           family={Spanswick},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc3fb9990e4a42ff1e7c00c9f18b4012}{%
+           family={Gillies},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9bc5ab384aa4db7f03901e3daba7779e}{%
+           family={Cameron},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a6d08c14780b2bebea326369cc2757f}{%
+           family={Skone},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=f912ffa0d16135f516f95ebc44c49af9}{%
+           family={Fiori},
+           familyi={F\bibinitperiod},
+           given={R.\bibnamedelimi A.\bibnamedelimi D.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=d14543cca29499bdcac3487f4bb91464}{%
+           family={Weatherwax},
+           familyi={W\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f97385136d0bf773011349dc170bf24b}{%
+           family={Vollmerhaus},
+           familyi={V\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a70befb685394c2a4bb01096edf78992}{%
+           family={Kujawski},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Chicago, Illinois}%
+      }
+      \strng{namehash}{e7b4ffce8b2afacba8a5d3eaa9ae46c8}
+      \strng{fullhash}{86c7048b5cc512d6a88d0399f7383c23}
+      \strng{bibnamehash}{e7b4ffce8b2afacba8a5d3eaa9ae46c8}
+      \strng{authorbibnamehash}{e7b4ffce8b2afacba8a5d3eaa9ae46c8}
+      \strng{authornamehash}{e7b4ffce8b2afacba8a5d3eaa9ae46c8}
+      \strng{authorfullhash}{86c7048b5cc512d6a88d0399f7383c23}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{American Geophysical Union (AGU) 2022 Fall Meeting}
+      \field{month}{12}
+      \field{title}{Use of Terrestrial HF Signals in Riometer Data to Investigate the Size of the Absorbing Region}
+      \field{year}{2022}
+      \true{nocite}
+      \keyw{International conference,poster presentation,MSc work}
+    \endentry
+    \entry{Ghaly2021DASP}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f062b4d8b792ddd005990c11f3897414}{%
+           family={Ghaly},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=398532a2416e7b9cea1bb5bf1ef4f102}{%
+           family={Spanswick},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc3fb9990e4a42ff1e7c00c9f18b4012}{%
+           family={Gillies},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Online via Zoom}%
+      }
+      \strng{namehash}{0ebaab6e2cbb4c3dab24d532e592bd76}
+      \strng{fullhash}{0ebaab6e2cbb4c3dab24d532e592bd76}
+      \strng{bibnamehash}{0ebaab6e2cbb4c3dab24d532e592bd76}
+      \strng{authorbibnamehash}{0ebaab6e2cbb4c3dab24d532e592bd76}
+      \strng{authornamehash}{0ebaab6e2cbb4c3dab24d532e592bd76}
+      \strng{authorfullhash}{0ebaab6e2cbb4c3dab24d532e592bd76}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Division of Atmospheric and Space Physics Conferences (DASP)}
+      \field{month}{2}
+      \field{title}{Investigating Riometer Capacity for Terrestrial HF Signal Monitoring}
+      \field{year}{2021}
+      \true{nocite}
+      \keyw{National conference,oral presentation,undergraduate work}
+    \endentry
+  \enddatalist
+  \datalist[entry]{nyt/global//global/global}
+    \entry{ghaly_quantifying_2024}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f062b4d8b792ddd005990c11f3897414}{%
+           family={Ghaly},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{f062b4d8b792ddd005990c11f3897414}
+      \strng{fullhash}{f062b4d8b792ddd005990c11f3897414}
+      \strng{bibnamehash}{f062b4d8b792ddd005990c11f3897414}
+      \strng{authorbibnamehash}{f062b4d8b792ddd005990c11f3897414}
+      \strng{authornamehash}{f062b4d8b792ddd005990c11f3897414}
+      \strng{authorfullhash}{f062b4d8b792ddd005990c11f3897414}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This thesis presents two related projects that investigate the impact of space weather on radio signals. The first project examines a new, prototype riometer, the Space Weather Adaptive Network (SWAN) Hyper Spectral Riometer (HSR), which can measure both terrestrial radio signals and Cosmic Noise Absorption (CNA). The simultaneous loss of both signals in the data can be used to estimate the size of electron density enhancements in the D-region. The second project investigates the use of existing riometers and a High Frequency (HF) transmitter--receiver circuit to predict radio signal fadeout during space weather events. By analyzing riometer absorption data, this project aims to establish thresholds that can be used for nowcasting radio disruptions. The project will quantify the probability of fadeout at different frequencies based on riometer absorption levels and examine the influence the position of the riometer has on its ability to nowcast. These projects aim to improve our understanding of how space weather affects radio signals and will ultimately help in the mitigation and reliability of HF communication and navigation systems.}
+      \field{month}{9}
+      \field{title}{Quantifying lonospheric {Electron} {Density} {Enhancements} and their {Impact} on {High} {Frequency} {Radio} {Wave} {Propagation}}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{file}
+      \verb Full Text PDF:files/1504/Ghaly - 2024 - Quantifying lonospheric Electron Density Enhancements and their Impact on High Frequency Radio Wave.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://hdl.handle.net/1880/119764
+      \endverb
+      \verb{url}
+      \verb https://hdl.handle.net/1880/119764
+      \endverb
+    \endentry
+    \entry{Ghaly2022TechReport}{report}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f062b4d8b792ddd005990c11f3897414}{%
+           family={Ghaly},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=398532a2416e7b9cea1bb5bf1ef4f102}{%
+           family={Spanswick},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Natural Resources Canada}%
+      }
+      \strng{namehash}{5bc817250063790dc5367f118f09d3af}
+      \strng{fullhash}{5bc817250063790dc5367f118f09d3af}
+      \strng{bibnamehash}{5bc817250063790dc5367f118f09d3af}
+      \strng{authorbibnamehash}{5bc817250063790dc5367f118f09d3af}
+      \strng{authornamehash}{5bc817250063790dc5367f118f09d3af}
+      \strng{authorfullhash}{5bc817250063790dc5367f118f09d3af}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Identification and Investigation of High Frequency Radio Wave Transmissions During Quiet and Disturbed Periods}
+      \field{type}{techreport}
+      \field{year}{2022}
+      \true{nocite}
+      \keyw{Technical report,work experience}
+    \endentry
+    \entry{Ghaly2023AGU}{inproceedings}{}
+      \name{author}{6}{ul=3}{%
+        {{un=0,uniquepart=base,hash=f062b4d8b792ddd005990c11f3897414}{%
+           family={Ghaly},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=398532a2416e7b9cea1bb5bf1ef4f102}{%
+           family={Spanswick},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9bc5ab384aa4db7f03901e3daba7779e}{%
+           family={Cameron},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a6d08c14780b2bebea326369cc2757f}{%
+           family={Skone},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc3fb9990e4a42ff1e7c00c9f18b4012}{%
+           family={Gillies},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f912ffa0d16135f516f95ebc44c49af9}{%
+           family={Fiori},
+           familyi={F\bibinitperiod},
+           given={R.\bibnamedelimi A.\bibnamedelimi D.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {San Francisco, California}%
+      }
+      \strng{namehash}{9cc0b41302c7efc222a71c8ca7ae48ea}
+      \strng{fullhash}{d1435c5ae1b2dbec539d84d548ed81f1}
+      \strng{bibnamehash}{9cc0b41302c7efc222a71c8ca7ae48ea}
+      \strng{authorbibnamehash}{9cc0b41302c7efc222a71c8ca7ae48ea}
+      \strng{authornamehash}{9cc0b41302c7efc222a71c8ca7ae48ea}
+      \strng{authorfullhash}{d1435c5ae1b2dbec539d84d548ed81f1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{American Geophysical Union (AGU) 2023 Fall Meeting}
+      \field{month}{12}
+      \field{title}{A Riometer Proxy for HF Terrestrial Link Status}
+      \field{year}{2023}
+      \true{nocite}
+      \keyw{International conference,poster presentation,MSc work}
+    \endentry
+    \entry{Ghaly2021DASP}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f062b4d8b792ddd005990c11f3897414}{%
+           family={Ghaly},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=398532a2416e7b9cea1bb5bf1ef4f102}{%
+           family={Spanswick},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc3fb9990e4a42ff1e7c00c9f18b4012}{%
+           family={Gillies},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Online via Zoom}%
+      }
+      \strng{namehash}{0ebaab6e2cbb4c3dab24d532e592bd76}
+      \strng{fullhash}{0ebaab6e2cbb4c3dab24d532e592bd76}
+      \strng{bibnamehash}{0ebaab6e2cbb4c3dab24d532e592bd76}
+      \strng{authorbibnamehash}{0ebaab6e2cbb4c3dab24d532e592bd76}
+      \strng{authornamehash}{0ebaab6e2cbb4c3dab24d532e592bd76}
+      \strng{authorfullhash}{0ebaab6e2cbb4c3dab24d532e592bd76}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Division of Atmospheric and Space Physics Conferences (DASP)}
+      \field{month}{2}
+      \field{title}{Investigating Riometer Capacity for Terrestrial HF Signal Monitoring}
+      \field{year}{2021}
+      \true{nocite}
+      \keyw{National conference,oral presentation,undergraduate work}
+    \endentry
+    \entry{Ghaly2023DASP}{inproceedings}{}
+      \name{author}{7}{ul=7}{%
+        {{un=0,uniquepart=base,hash=f062b4d8b792ddd005990c11f3897414}{%
+           family={Ghaly},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=398532a2416e7b9cea1bb5bf1ef4f102}{%
+           family={Spanswick},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc3fb9990e4a42ff1e7c00c9f18b4012}{%
+           family={Gillies},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9bc5ab384aa4db7f03901e3daba7779e}{%
+           family={Cameron},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a6d08c14780b2bebea326369cc2757f}{%
+           family={Skone},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=f912ffa0d16135f516f95ebc44c49af9}{%
+           family={Fiori},
+           familyi={F\bibinitperiod},
+           given={R.\bibnamedelimi A.\bibnamedelimi D.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=d14543cca29499bdcac3487f4bb91464}{%
+           family={Weatherwax},
+           familyi={W\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {John H. Chapman Space Centre, Longueuil, Quebec}%
+      }
+      \list{organization}{1}{%
+        {Canadian Space Agency (CSA)}%
+      }
+      \strng{namehash}{d398e7f2a49816c43ce93a4c7fb07715}
+      \strng{fullhash}{d398e7f2a49816c43ce93a4c7fb07715}
+      \strng{bibnamehash}{d398e7f2a49816c43ce93a4c7fb07715}
+      \strng{authorbibnamehash}{d398e7f2a49816c43ce93a4c7fb07715}
+      \strng{authornamehash}{d398e7f2a49816c43ce93a4c7fb07715}
+      \strng{authorfullhash}{d398e7f2a49816c43ce93a4c7fb07715}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Division of Atmospheric and Space Physics Conferences (DASP)}
+      \field{month}{2}
+      \field{title}{Using Multi-frequency Riometers for Monitoring HF Signal Propagation And Modelling D-region Absorption}
+      \field{year}{2023}
+      \true{nocite}
+      \keyw{National conference,oral presentation,MSc work}
+    \endentry
+    \entry{Ghaly2022AGU}{inproceedings}{}
+      \name{author}{9}{ul=7}{%
+        {{un=0,uniquepart=base,hash=f062b4d8b792ddd005990c11f3897414}{%
+           family={Ghaly},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=398532a2416e7b9cea1bb5bf1ef4f102}{%
+           family={Spanswick},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc3fb9990e4a42ff1e7c00c9f18b4012}{%
+           family={Gillies},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9bc5ab384aa4db7f03901e3daba7779e}{%
+           family={Cameron},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a6d08c14780b2bebea326369cc2757f}{%
+           family={Skone},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=f912ffa0d16135f516f95ebc44c49af9}{%
+           family={Fiori},
+           familyi={F\bibinitperiod},
+           given={R.\bibnamedelimi A.\bibnamedelimi D.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=d14543cca29499bdcac3487f4bb91464}{%
+           family={Weatherwax},
+           familyi={W\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f97385136d0bf773011349dc170bf24b}{%
+           family={Vollmerhaus},
+           familyi={V\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a70befb685394c2a4bb01096edf78992}{%
+           family={Kujawski},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Chicago, Illinois}%
+      }
+      \strng{namehash}{e7b4ffce8b2afacba8a5d3eaa9ae46c8}
+      \strng{fullhash}{86c7048b5cc512d6a88d0399f7383c23}
+      \strng{bibnamehash}{e7b4ffce8b2afacba8a5d3eaa9ae46c8}
+      \strng{authorbibnamehash}{e7b4ffce8b2afacba8a5d3eaa9ae46c8}
+      \strng{authornamehash}{e7b4ffce8b2afacba8a5d3eaa9ae46c8}
+      \strng{authorfullhash}{86c7048b5cc512d6a88d0399f7383c23}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{American Geophysical Union (AGU) 2022 Fall Meeting}
+      \field{month}{12}
+      \field{title}{Use of Terrestrial HF Signals in Riometer Data to Investigate the Size of the Absorbing Region}
+      \field{year}{2022}
+      \true{nocite}
+      \keyw{International conference,poster presentation,MSc work}
+    \endentry
+    \entry{ghaly_use_2024}{article}{}
+      \name{author}{7}{ul=6}{%
+        {{un=0,uniquepart=base,hash=f062b4d8b792ddd005990c11f3897414}{%
+           family={Ghaly},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=398532a2416e7b9cea1bb5bf1ef4f102}{%
+           family={Spanswick},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc3fb9990e4a42ff1e7c00c9f18b4012}{%
+           family={Gillies},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9bc5ab384aa4db7f03901e3daba7779e}{%
+           family={Cameron},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a6d08c14780b2bebea326369cc2757f}{%
+           family={Skone},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=2e25ff240db3188408ab85f631a18584}{%
+           family={Fiori},
+           familyi={F\bibinitperiod},
+           given={R.\bibnamedelimi a.\bibnamedelimi D.},
+           giveni={R\bibinitperiod\bibinitdelim a\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=b11859a637664711691490a33d21cb7c}{%
+           family={Weatherwax},
+           familyi={W\bibinitperiod},
+           given={A.\bibnamedelimi T.},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{1addad0eb520ecbe5e22c5a1dcb33166}
+      \strng{fullhash}{eab4f59074b6bb7a0e6f0ee2e1639637}
+      \strng{bibnamehash}{1addad0eb520ecbe5e22c5a1dcb33166}
+      \strng{authorbibnamehash}{1addad0eb520ecbe5e22c5a1dcb33166}
+      \strng{authornamehash}{1addad0eb520ecbe5e22c5a1dcb33166}
+      \strng{authorfullhash}{eab4f59074b6bb7a0e6f0ee2e1639637}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents the first observations from the prototype Space Weather Adaptive Network (SWAN) riometers, which are capable of simultaneous measurements of narrow-band terrestrial signal power and Cosmic Noise Absorption (CNA). We describe a methodology by which we can use coincident CNA and loss of known skywave-mode, High Frequency (HF) signals to estimate a minimum size (geographic extent) of D-region electron density enhancements. We demonstrate our technique with an example event. This methodology and early results provide a pathfinder for a continent-wide array of SWAN instruments which would be capable of utilizing multiple intersecting terrestrial HF ray paths to reconstruct the size of D-region electron density enhancements at the time of initial HF signal loss.}
+      \field{issn}{2169-9402}
+      \field{journaltitle}{Journal of Geophysical Research: Space Physics}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2023JA032375}
+      \field{number}{5}
+      \field{title}{Use of {Terrestrial} {High} {Frequency} {Signals} in {Riometer} {Data} to {Explore} the {Size} of {D}-{Region} {Electron} {Density} {Enhancements}}
+      \field{volume}{129}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{e2023JA032375}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1029/2023JA032375
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:files/1507/Ghaly et al. - 2024 - Use of Terrestrial High Frequency Signals in Riometer Data to Explore the Size of D-Region Electron.pdf:application/pdf;Snapshot:files/1508/2023JA032375.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2023JA032375
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2023JA032375
+      \endverb
+      \keyw{absorption,D region,HF propagation,ionosphere,ray tracing,riometer}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
