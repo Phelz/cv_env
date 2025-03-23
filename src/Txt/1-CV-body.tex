@@ -21,17 +21,23 @@
 \hspace{0.03\textwidth} 
 \begin{minipage}[t]{0.3\textwidth}  % Second column smaller (30% of text width)
 	
-	\vspace*{-1.5cm}
+	\paragraph{ \ }
+	\vspace*{-.25cm}
 	\begin{tikzpicture}
-		\clip (0,0) circle (2cm) node {\includegraphics[width=4cm]{Img/no_bg_profile_1.png}};
+		\begin{scope}
+			\clip (0,0) circle (1.8cm);
+			\node at (0, -0.25) {\includegraphics[width=3.5cm, height=5.75cm]{Img/no_bg_profile_1.png}};
+		\end{scope}
+		\draw[black] (0,0) circle (1.8cm);
 	\end{tikzpicture}
-	\vspace*{-1.5cm}
+	\vspace*{-.25cm}
 
 	% \begin{tikzpicture}
     %     % Clip the image into a circle and scale it to half the width of the first minipage (0.31\textwidth)
     %     \node[anchor=center, circle, minimum size=0.31\textwidth, clip] at (0,0)
     %         {\includegraphics[width=0.31\textwidth]{Img/no_bg_profile_1.png}};
     % \end{tikzpicture}
+	
 
 	\section{Languages}
 	\LngLvlCEFR{Arabic}{C2}

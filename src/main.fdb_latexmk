@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber main"] 1742763076 "main.bcf" "main.bbl" "main" 1742763319
-  "main.bcf" 1742763319 108469 a1818b7cdb8596366e23c5e8660e47d7 "pdflatex"
+["biber main"] 1742764261 "main.bcf" "main.bbl" "main" 1742764450
+  "main.bcf" 1742764450 108469 a1818b7cdb8596366e23c5e8660e47d7 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1742763312 "/home/philo/projects/cv_env/src/main.tex" "main.pdf" "main" 1742763319
+["pdflatex"] 1742764444 "/home/philo/projects/cv_env/src/main.tex" "main.pdf" "main" 1742764450
   "/etc/texmf/web2c/texmf.cnf" 1715608975 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/philo/projects/cv_env/src/main.tex" 1742761116 4272 80886e60e12bc04ca659014dd6b85181 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463430686 1687 f004baecce60175c6453d0e3f808cf20 ""
@@ -258,12 +258,12 @@
   "Code/CV.cls" 1742760551 34848 639d8f0a64eab8f1e7ad9af56dc7419a ""
   "Code/Preamble.tex" 1742760928 702 6d3264304a7ad212c1b156207b3a2ce1 ""
   "Img/no_bg_profile_1.png" 1742709089 1097123 9b0ea10f8a24a05ad64bc67ba6b4be83 ""
-  "Txt/1-CV-body.tex" 1742763299 2521 09f816d9476950159c68c40943df4a6a ""
+  "Txt/1-CV-body.tex" 1742764443 2646 af416c5d000a794b6f430402272266c5 ""
   "Txt/2-page2.tex" 1742759196 5363 752f233c0d60628e7174bf5afe1dd4ed ""
-  "main.aux" 1742763319 1641 b41e86818b5688ff37d28ddf43adb792 "pdflatex"
-  "main.bbl" 1742763076 38414 9317a60aa0bb4a681de3f060be492470 "biber main"
-  "main.out" 1742763313 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.run.xml" 1742763319 2333 c4ba03346ee88394158c970f09a3b8fd "pdflatex"
+  "main.aux" 1742764450 1729 0dbba14aaa3a97d4b65e5ea70e84832b "pdflatex"
+  "main.bbl" 1742764262 38414 9317a60aa0bb4a681de3f060be492470 "biber main"
+  "main.out" 1742764445 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.run.xml" 1742764450 2333 c4ba03346ee88394158c970f09a3b8fd "pdflatex"
   "main.tex" 1742761116 4272 80886e60e12bc04ca659014dd6b85181 ""
   (generated)
   "main.aux"
