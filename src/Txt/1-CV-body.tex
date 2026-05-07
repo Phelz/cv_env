@@ -1,26 +1,26 @@
 
 \begin{minipage}[t]{0.62\textwidth}  % First column larger (65% of text width)
-    \section{Education}
+	\section{Education}
 
 	\begin{tblr}{%
-		colspec={ t{5.25cm} X[l,8] },  % Column specifications: first column with fixed width, rest flexible
-		column{1} = {font=\fontsize{11}{12}\selectfont}, % 11pt font with 12pt line spacing for column 1 (bold)
-		column{2} = {font=\fontsize{11}{12}\selectfont},           % 11pt font for column 2 (non-bold)
-		column{3} = {font=\fontsize{11}{12}\selectfont},           % 11pt font for column 3 (non-bold)
-		width=1.0\textwidth,
-		colsep = 0.1pt,  % Adjust column spacing
-		rowsep=0.001\baselineskip} % Adjust row spacing
-	
-	% Table contents
-	\bfseries Ph.D. in Particle Physics & \CVevent{2024 (current)}{University of Calgary} \\
-	\bfseries M.Sc. in Space Physics & \CVevent{2022 - 2023}{University of Calgary} \\
-	\bfseries B.Sc. in Physics & \CVevent{2017 - 2021}{University of Calgary} \\
+			colspec={ t{5.25cm} X[l,8] },  % Column specifications: first column with fixed width, rest flexible
+			column{1} = {font=\fontsize{11}{12}\selectfont}, % 11pt font with 12pt line spacing for column 1 (bold)
+			column{2} = {font=\fontsize{11}{12}\selectfont},           % 11pt font for column 2 (non-bold)
+			column{3} = {font=\fontsize{11}{12}\selectfont},           % 11pt font for column 3 (non-bold)
+			width=1.0\textwidth,
+			colsep = 0.1pt,  % Adjust column spacing
+			rowsep=0.001\baselineskip} % Adjust row spacing
+
+		% Table contents
+		\bfseries Ph.D. in Particle Physics & \CVevent{2024 (current)}{University of Calgary} \\
+		\bfseries M.Sc. in Space Physics & \CVevent{2022 - 2023}{University of Calgary} \\
+		\bfseries B.Sc. in Physics & \CVevent{2017 - 2021}{University of Calgary} \\
 	\end{tblr}
 
 \end{minipage}
-\hspace{0.03\textwidth} 
+\hspace{0.03\textwidth}
 \begin{minipage}[t]{0.3\textwidth}  % Second column smaller (30% of text width)
-	
+
 	\paragraph{ \ }
 	\vspace*{-.25cm}
 	\begin{tikzpicture}
@@ -28,16 +28,16 @@
 			\clip (0,0) circle (1.8cm);
 			\node at (0, -0.25) {\includegraphics[width=3.5cm, height=5.75cm]{Img/no_bg_profile_1.png}};
 		\end{scope}
-		\draw[black] (0,0) circle (1.8cm); 
+		\draw[black] (0,0) circle (1.8cm);
 	\end{tikzpicture}
 	\vspace*{-.25cm}
 
 	% \begin{tikzpicture}
-    %     % Clip the image into a circle and scale it to half the width of the first minipage (0.31\textwidth)
-    %     \node[anchor=center, circle, minimum size=0.31\textwidth, clip] at (0,0)
-    %         {\includegraphics[width=0.31\textwidth]{Img/no_bg_profile_1.png}};
-    % \end{tikzpicture}
-	
+	%     % Clip the image into a circle and scale it to half the width of the first minipage (0.31\textwidth)
+	%     \node[anchor=center, circle, minimum size=0.31\textwidth, clip] at (0,0)
+	%         {\includegraphics[width=0.31\textwidth]{Img/no_bg_profile_1.png}};
+	% \end{tikzpicture}
+
 
 	\section{Languages}
 	\LngLvlCEFR{Arabic}{C2}
@@ -46,6 +46,98 @@
 
 	% \LngTextCEFR
 \end{minipage}
+
+\section{Research Contributions}
+
+\begin{Summary}{HAICU Trap Commissioning -- 2025--\textit{(present)}, Ph.D. Thesis}
+
+	\veritem{Constructed the solenoidal Bitter magnets.}\\
+
+	\veritem{Tested the quadrupoles of the trap with running cooling water and current up to 1200 Amps.}\\
+
+	\veritem{Researching and developing strategies for integrating the thermistors into the quadrupoles for monitoring the temperature of the magnets during operation.}
+
+\end{Summary}
+
+
+\begin{Summary}{HAICU Experiment Simulations -- 2024--\textit{(present)}, Ph.D. Thesis}
+
+	\veritem{Developed COMSOL Multiphysics simulations in conjuction with C++ code to model the magnetic field used in the HAICU experiment.}\\
+
+	\veritem{Integrated the field maps into a C++ software package to simulate the trajectories of hydrogen in our apparatus.}\\
+
+	\veritem{Used the simulations to time the trapping of hydrogen, optimizing for maximum number of atoms trapped.}\\
+
+	\veritem{Extended the simulations to include magnetic deceleration of hydrogen.}
+
+\end{Summary}
+
+\begin{Summary}{Radio Communication Disruption Forecasting -- 2023--2024, M.Sc. Thesis}
+	\veritem{Performed an ordinal statistical analysis of over 4 years of radio and riometer data.}\\
+
+	% \veritem{The data were filtered for space weather conditions such as solar flares and geomagnetic storms/substorms, as well as seasonal variations.}\\
+
+	\veritem{By finding correlations between the two datasets, I established the riometer response as proxy for high-frequency radio communication disruption.}\\
+
+	\veritem{Identified the core drivers for signal loss for a wide range of frequencies from 5 to 15 MHz.}\\
+
+	\veritem{Findings currently under review for publication in the \textit{Journal of Geophysical Research: Space Physics.}}
+\end{Summary}
+
+
+\begin{Summary}{Sizing Radio-disrupted Regions -- 2022--2023, M.Sc. Thesis}
+	\veritem{Wrote a ray tracing program to model the undisturbed propagation of radio waves.}\\
+
+	\veritem{Used the modelled signal, together with the signal status observed by the receiver, to estimate the size of the region where radio waves are disrupted.}\\
+
+	\veritem{Extended the methodology to a network of multiple radio transmitters and receivers across Canada.}\\
+
+	\veritem{The technique was published in: \textit{Journal of Geophysical Research: Space Physics}: \href{https://onlinelibrary.wiley.com/doi/abs/10.1029/2023JA032375}{Ghaly et al., 2024.}}All code, data analysis, visualizations and writing were done by me. Coauthors helped with editing the paper.
+\end{Summary}
+
+\section{Collaboration and Impact}
+
+\begin{Summary}{Natural Resources Canada (NRCan) Collaboration -- 2020--2024 Research Assistant and M.Sc. Thesis}
+	\veritem{Upon discovering NRCan's underutilized time-signal transmitters, I verified their dectability in our data.}\\
+
+	\veritem{I then established that their signals were disrupted by space weather, and collaborated with NRCan to incorporate their network of radio transmitters into my analysis.}\\
+
+	\veritem{The success of this collaboration led to the development of a space weather forecasting/alerting system for modeling where and when radio communications are disrupted.}
+
+
+\end{Summary}
+
+\section{Software and Technical Development}
+
+\begin{Summary}{MITACS Globalink Award: CERN Control System Revamp -- Summer 2025}
+	\veritem{I was awarded a MITACS Globalink Research Award to spend the summer of 2025 at CERN, revamping the control system for the microwaves in the ALPHA experiment.}\\
+
+	\veritem{Upgrading from a National Instruments PXI crate to a compact-RIO, I developed entirely new control software in LabVIEW.}\\
+
+	\veritem{The new software uses the Remote Action Engine framework, allowing for remote control and monitoring of the microwave system.}\\
+
+\end{Summary}
+
+\begin{Summary}{Real-time Data Pipeline and Automatic Baselining -- 2021--2023, Research Assistant and M.Sc. Thesis}
+
+	\veritem{Adapted the Perseus, Software-Defined Radio (SDR), making it usable for research.}\\
+
+	\veritem{Wrote software for data acquisition in Python and Java and tested the instrument's ability to function as a receiver.}\\
+
+	\veritem{Developed an online data browser for the prototype instruments deployed to generate curated, raw (K0-level) data for the public. Back-processed and published K0 data for 2022 and 2023.}\\
+
+	\veritem{Wrote instrument-side code to generate curated K0 data on-site for all instruments deployed. Data are now being published in real-time.}\\
+
+	\veritem{Developed a Graphical User Interface (GUI) for semi-automatic, instrument-specific baselining.}\\
+
+	\veritem{Developed a methodology for real-time, automatic baselining to generate operational (K2-level) data.}\\
+
+	\veritem{Designed a web application with a Postgre database that browses through different specification parameters for flagging space weather events.}
+
+\end{Summary}
+
+
+
 
 \section{Publications}
 
@@ -58,7 +150,7 @@
 \printbibliography[ heading=pubtype, type=inproceedings, title={\pubtitle{conference}}]
 
 \begin{Summary}{Skills}
-	\underline{Programming:} \ \
+	\underline{Software/ Programming:} \ \
 	\veritem{Python}
 	\veritem{Java}
 	\veritem{JavaScript}
@@ -70,6 +162,7 @@
 	\veritem{Django}
 	\veritem{CSS}
 	\veritem{HTML}
+	\veritem{COMSOL Multiphysics}
 	\\ \\
 	\underline{Hardware:} \ \
 	\veritem{Software Defined Radios (SDR)}
@@ -78,6 +171,5 @@
 	\\ \\
 	\underline{Modelling:} \ \
 	\veritem{AutoCAD Inventor}
-	\veritem{COMSOL Multiphysics}
 
 \end{Summary}
