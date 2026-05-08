@@ -176,6 +176,13 @@
 \RequirePackage{tabularray}         % Used for cvtable
 \RequirePackage{adjustbox}          % Summary box (environment varwidth)
 \RequirePackage{fancyhdr}           % For page limit and header 2nd page
+\RequirePackage{siunitx}           % For page limit and header 2nd page
+\RequirePackage{colortbl}           % For page limit and header 2nd page
+\RequirePackage{booktabs}           % For page limit and header 2nd page
+\RequirePackage{tabularx}           % For page limit and header 2nd page
+
+
+
 %................................................................
 %
 %                             Name
@@ -226,6 +233,7 @@
 \definecolor{darkgray}{rgb}{0.45,0.45,0.45}
 \definecolor{lightgray}{rgb}{0.95,0.95,0.95}
 \definecolor{Overleaf_green}{HTML}{46A247}
+\definecolor{lightblue}{RGB}{173,216,230}
 % Colour names used later in .cls file:
 \colorlet{icons}{Overleaf_green}
 \colorlet{soft_text}{darkgray}

@@ -66,7 +66,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labeldateparts</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="multivalued">
       <bcf:key>labeldatespec</bcf:key>
@@ -91,15 +91,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>4</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>4</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>4</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -163,7 +163,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortingtemplatename</bcf:key>
-      <bcf:value>nyt</bcf:value>
+      <bcf:value>ydt</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortsets</bcf:key>
@@ -171,11 +171,11 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquelist</bcf:key>
-      <bcf:value>true</bcf:value>
+      <bcf:value>false</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>full</bcf:value>
+      <bcf:value>false</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniqueprimaryauthor</bcf:key>
@@ -300,7 +300,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labeldateparts</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="multivalued">
       <bcf:key>labeldatespec</bcf:key>
@@ -317,15 +317,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>4</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>4</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>4</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -381,11 +381,11 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquelist</bcf:key>
-      <bcf:value>true</bcf:value>
+      <bcf:value>false</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>full</bcf:value>
+      <bcf:value>false</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniqueprimaryauthor</bcf:key>
@@ -620,6 +620,26 @@
     <bcf:option datatype="boolean">sortfirstinits</bcf:option>
     <bcf:option datatype="boolean">sortgiveninits</bcf:option>
     <bcf:option datatype="boolean">labelyear</bcf:option>
+    <bcf:option datatype="boolean">omitname</bcf:option>
+    <bcf:option datatype="boolean">omitfirstname</bcf:option>
+    <bcf:option datatype="boolean">omitnameprefix</bcf:option>
+    <bcf:option datatype="boolean">plauthorname</bcf:option>
+    <bcf:option datatype="boolean">plauthorfirstname</bcf:option>
+    <bcf:option datatype="boolean">plauthornameprefix</bcf:option>
+    <bcf:option datatype="boolean">marginyear</bcf:option>
+    <bcf:option datatype="boolean">boldyear</bcf:option>
+    <bcf:option datatype="boolean">pubstateextra</bcf:option>
+    <bcf:option datatype="boolean">plauthorhandling</bcf:option>
+    <bcf:option datatype="boolean">nameorder</bcf:option>
+    <bcf:option datatype="boolean">plauthorfirstinit</bcf:option>
+    <bcf:option datatype="boolean">plnumbered</bcf:option>
+    <bcf:option datatype="boolean">linktitleall</bcf:option>
+    <bcf:option datatype="boolean">linktitleurl</bcf:option>
+    <bcf:option datatype="boolean">linktitledoi</bcf:option>
+    <bcf:option datatype="boolean">linktitleisbn</bcf:option>
+    <bcf:option datatype="boolean">linktitleissn</bcf:option>
+    <bcf:option datatype="boolean">prinfo</bcf:option>
+    <bcf:option datatype="boolean">reversenumbering</bcf:option>
     <bcf:option datatype="boolean">isbn</bcf:option>
     <bcf:option datatype="boolean">url</bcf:option>
     <bcf:option datatype="boolean">doi</bcf:option>
@@ -854,6 +874,41 @@
   </bcf:datafieldset>
   <!-- SOURCEMAP -->
   <bcf:sourcemap>
+    <bcf:maps datatype="bibtex" level="style">
+      <bcf:map>
+        <bcf:map_step map_field_source="shortauthor"/>
+        <bcf:map_step map_field_set="namea" map_origfieldval="1"/>
+      </bcf:map>
+      <bcf:map map_overwrite="1">
+        <bcf:map_step map_field_set="shortauthor" map_field_value="1111"/>
+      </bcf:map>
+    </bcf:maps>
+    <bcf:maps datatype="bibtex" level="style">
+      <bcf:map>
+        <bcf:map_step map_field_source="year" map_final="1"/>
+        <bcf:map_step map_field_set="sortyear" map_origfieldval="1"/>
+      </bcf:map>
+      <bcf:map>
+        <bcf:map_step map_field_source="pubstate" map_match="prepublished" map_final="1"/>
+        <bcf:map_step map_field_set="sortyear" map_field_value="2222"/>
+      </bcf:map>
+      <bcf:map>
+        <bcf:map_step map_field_source="pubstate" map_match="forthcoming" map_final="1"/>
+        <bcf:map_step map_field_set="sortyear" map_field_value="3333"/>
+      </bcf:map>
+      <bcf:map>
+        <bcf:map_step map_field_source="pubstate" map_match="inpress" map_final="1"/>
+        <bcf:map_step map_field_set="sortyear" map_field_value="4444"/>
+      </bcf:map>
+      <bcf:map>
+        <bcf:map_step map_field_source="pubstate" map_match="submitted" map_final="1"/>
+        <bcf:map_step map_field_set="sortyear" map_field_value="5555"/>
+      </bcf:map>
+      <bcf:map>
+        <bcf:map_step map_field_source="pubstate" map_match="inpreparation" map_final="1"/>
+        <bcf:map_step map_field_set="sortyear" map_field_value="6666"/>
+      </bcf:map>
+    </bcf:maps>
     <bcf:maps datatype="bibtex" level="driver">
       <bcf:map>
         <bcf:map_step map_field_set="day" map_null="1"/>
@@ -1324,6 +1379,7 @@
       <bcf:field fieldtype="field" format="xsv" datatype="option" skip_output="true">relatedoptions</bcf:field>
       <bcf:field fieldtype="field" datatype="range">pages</bcf:field>
       <bcf:field fieldtype="field" datatype="code">execute</bcf:field>
+      <bcf:field fieldtype="field" datatype="literal">peerreview</bcf:field>
     </bcf:fields>
     <bcf:entryfields>
       <bcf:field>abstract</bcf:field>
@@ -2087,6 +2143,9 @@
       <bcf:field>type</bcf:field>
       <bcf:field>venue</bcf:field>
     </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:field>peerreview</bcf:field>
+    </bcf:entryfields>
     <bcf:multiscriptfields>
       <bcf:field>abstract</bcf:field>
       <bcf:field>addendum</bcf:field>
@@ -2348,32 +2407,21 @@
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
-  <bcf:sortingtemplate name="nyt">
+  <bcf:sortingtemplate name="ydt">
     <bcf:sort order="1">
       <bcf:sortitem order="1">presort</bcf:sortitem>
     </bcf:sort>
     <bcf:sort order="2" final="1">
       <bcf:sortitem order="1">sortkey</bcf:sortitem>
     </bcf:sort>
-    <bcf:sort order="3">
-      <bcf:sortitem order="1">sortname</bcf:sortitem>
-      <bcf:sortitem order="2">author</bcf:sortitem>
-      <bcf:sortitem order="3">editor</bcf:sortitem>
-      <bcf:sortitem order="4">translator</bcf:sortitem>
-      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="6">title</bcf:sortitem>
+    <bcf:sort order="3" sort_direction="descending">
+      <bcf:sortitem order="1" substring_side="left" substring_width="4">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2" substring_side="left" substring_width="4">year</bcf:sortitem>
+      <bcf:sortitem literal="1" order="3">9999</bcf:sortitem>
     </bcf:sort>
     <bcf:sort order="4">
-      <bcf:sortitem order="1">sortyear</bcf:sortitem>
-      <bcf:sortitem order="2">year</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="5">
       <bcf:sortitem order="1">sorttitle</bcf:sortitem>
       <bcf:sortitem order="2">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="6">
-      <bcf:sortitem order="1">volume</bcf:sortitem>
-      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
     </bcf:sort>
   </bcf:sortingtemplate>
   <bcf:sortingtemplate name="ydnt">
@@ -2403,9 +2451,9 @@
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
   <bcf:datalist section="0"
-                name="nyt/global//global/global"
+                name="ydt/global//global/global"
                 type="entry"
-                sortingtemplatename="nyt"
+                sortingtemplatename="ydt"
                 sortingnamekeytemplatename="global"
                 labelprefix=""
                 uniquenametemplatename="global"
