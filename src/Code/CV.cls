@@ -887,7 +887,7 @@
       {% Accepted arguments (without custom):
         { book }    { \pubtitle_symbolheading:nn \faBook     { Books } }
         { article } { \pubtitle_symbolheading:nn \faFileText { Articles } }
-        { conference }{ \pubtitle_symbolheading:nn \faCommenting { Conferences } }
+        { conference }{ \pubtitle_symbolheading:nn \faCommenting { Presentations } }
         { online }{ \pubtitle_symbolheading:nn \faLaptop { Online ~ Resources } }
         { thesis }{ \pubtitle_symbolheading:nn \faMortarBoard { Theses } }
         { report }{ \pubtitle_symbolheading:nn \faFilePdfO { Reports } }

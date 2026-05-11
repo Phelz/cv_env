@@ -1,36 +1,37 @@
 
-\begin{minipage}[t]{0.62\textwidth}  % First column larger (65% of text width)
-	\section{Education}
+% \begin{minipage}[t]{0.62\textwidth}  % First column larger (65% of text width)
+\section{Education}
 
 	\begin{tblr}{%
-			colspec={ t{5.25cm} X[l,8] },  % Column specifications: first column with fixed width, rest flexible
+			colspec={ t{3.25cm} X[l,3] X[1, 4] },  % Column specifications: first column with fixed width, rest flexible
 			column{1} = {font=\fontsize{11}{12}\selectfont}, % 11pt font with 12pt line spacing for column 1 (bold)
 			column{2} = {font=\fontsize{11}{12}\selectfont},           % 11pt font for column 2 (non-bold)
+			column{3} = {font=\fontsize{11}{12}\selectfont},           % 11pt font for column 3 (non-bold)
 			column{3} = {font=\fontsize{11}{12}\selectfont},           % 11pt font for column 3 (non-bold)
 			width=1.0\textwidth,
 			colsep = 0.1pt,  % Adjust column spacing
 			rowsep=0.001\baselineskip} % Adjust row spacing
 
 		% Table contents
-		\bfseries Ph.D. in Particle Physics & \CVevent{2024 (current)}{University of Calgary} \\
-		\bfseries M.Sc. in Space Physics & \CVevent{2022 - 2023}{University of Calgary} \\
-		\bfseries B.Sc. in Physics & \CVevent{2017 - 2021}{University of Calgary} \\
+		\bfseries Ph.D: Physics & \CVevent{2024 (current)}{University of Calgary} & Demonstrating the Trapping of Hydrogen in the HAICU Experiment\\
+		\bfseries M.Sc.: Physics & \CVevent{2022 - 2023}{University of Calgary} & Quantifying Ionospheric Electron Density Enhancements and their Impact on High Frequency Radio Wave Propagation \\
+		\bfseries B.Sc.: Physics & \CVevent{2017 - 2021}{University of Calgary} \\
 	\end{tblr}
 
-\end{minipage}
-\hspace{0.03\textwidth}
-\begin{minipage}[t]{0.3\textwidth}  % Second column smaller (30% of text width)
+% \end{minipage}
+% \hspace{0.03\textwidth}
+% \begin{minipage}[t]{0.3\textwidth}  % Second column smaller (30% of text width)
 
-	\paragraph{ \ }
-	\vspace*{-.25cm}
-	\begin{tikzpicture}
-		\begin{scope}
-			\clip (0,0) circle (1.8cm);
-			\node at (0, -0.25) {\includegraphics[width=3.5cm, height=5.75cm]{Img/no_bg_profile_1.png}};
-		\end{scope}
-		\draw[black] (0,0) circle (1.8cm);
-	\end{tikzpicture}
-	\vspace*{-.25cm}
+	% \paragraph{ \ }
+	% \vspace*{-.25cm}
+	% \begin{tikzpicture}
+	% 	\begin{scope}
+	% 		\clip (0,0) circle (1.8cm);
+	% 		\node at (0, -0.25) {\includegraphics[width=3.5cm, height=5.75cm]{Img/no_bg_profile_1.png}};
+	% 	\end{scope}
+	% 	\draw[black] (0,0) circle (1.8cm);
+	% \end{tikzpicture}
+	% \vspace*{-.25cm}
 
 	% \begin{tikzpicture}
 	%     % Clip the image into a circle and scale it to half the width of the first minipage (0.31\textwidth)
@@ -39,23 +40,20 @@
 	% \end{tikzpicture}
 
 
-	\section{Languages}
-	\LngLvlCEFR{Arabic}{C2}
-	\LngLvlCEFR{English}{C2}
 
 
-	% \LngTextCEFR
-\end{minipage}
+
+% \end{minipage}
 
 \section{Research Contributions}
 
 \begin{Summary}{HAICU Trap Commissioning -- 2025--\textit{(present)}, Ph.D. Thesis}
 
-	\veritem{Constructed the solenoidal Bitter magnets.}\\
+	\veritem{Built various components of the magnetic trap.}\\
 
-	\veritem{Tested the quadrupoles of the trap with running cooling water and current up to 1200 Amps.}\\
+	\veritem{Tested the magnets with running cooling water and current up to 1200 Amps.}\\
 
-	\veritem{Researching and developing strategies for integrating the thermistors into the quadrupoles for monitoring the temperature of the magnets during operation.}
+	\veritem{Researching and developing strategies for integrating temperature sensors into the magnetic trap for monitoring and interlocking the magnets during operation.}
 
 \end{Summary}
 
